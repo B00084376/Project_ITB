@@ -1,0 +1,102 @@
+{#
+B00084376
+This is the template of the admin page.
+This will show the user that they have successfully logged in as the admin.
+Although no features here, this is a page only the admin will see.
+This site can be edited later, potentially secret messages or widgets to count views of pages can be inserted here.
+#}
+
+{% set title = 'Admin' %}
+{% set title2 = 'Login' %}
+{% set linkAddress1 = '../public/images/7 27 Fifth Harmony.jpg' %}
+{% set linkAddress2 = '../public/images/Unbreakable Janet Jackson.jpg' %}
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>{{ title }}</title>
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="../css/templatemo_style.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+        function clearText(field)
+        {
+            if (field.defaultValue == field.value)
+                field.value = '';
+            else if (field.value == '')
+                field.value = field.defaultValue;
+        }
+    </script></head>
+<body>
+<div id="templatemo_container_wrapper">
+    <div id="templatemo_container">
+
+        <div id="templatemo_banner">
+
+            <div id="site_title">
+                <h1><a href="#">Dublin Music</a></h1>
+                <h1><a href="#">{{ title }}</a></h1>
+            </div>
+
+            <div id="templatemo_menu">
+                <ul>
+                    <li><a href="../public/index.php" class="current">Home</a></li>
+                    <li><a href="../public/cdsForSale.php">CD's</a></li>
+                    <li><a href="../public/instrumentsForSale.php">Instruments</a></li>
+                    <li><a href="../public/shoppingCart.php">Shopping Cart</a></li>
+                    <li><a href="../public/loginScreen.php">{{ title2 }}</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="templatemo_content">
+            <div id="side_column">
+                <div class="side_column_box">
+                    <h2><span></span>New Releases</h2>
+                    <div class="side_column_box_content">
+                        <div class="news_section">
+                            <div style="text-align: center;"><a href="../public/cdsForSale.php"><img style="width: 154px; height: 129px;" src="../public/images/7 27 Fifth Harmony.jpg"/></a></div><a href="#">
+                            </a>
+                            <p style="text-align: center; color: yellow;">7 27</p><p style="text-align: center;">Fifth Harmony</p>
+                        </div>
+
+                        <div class="news_section">
+                            <div style="text-align: center;"><a href="../public/cdsForSale.php"><img style="width: 154px; height: 129px;" src="../public/images/Unbreakable Janet Jackson.jpg"/></a></div><a href="#">
+                            </a>
+                            <p style="text-align: center; color: yellow;">Unbreakable</p><p style="text-align: center;">Janet Jackson</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_column">
+            <div class="main_column_section">
+                <h2><span></span>Admin Log In Complete<br />
+                </h2>
+                <div class="main_column_section_content">
+                    <h5>Thanks for loggin in to Dublin Music's site!
+                        <br><br>Members who have logged in have gotten a discount on their items.
+                        <br><br>We aim to have orders in store in the 3 working days after a customer has purchased.
+                        <br><br>Feel free to order or continue browsing.
+                        </h5>
+                </div>
+                <div class="cleaner"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+        <div style="text-align: center;" id="templatemo_footer" align="center">
+            <div id="templatemo_footer_bar">
+                <ul class="footer_menu">
+                    <li><a href="../public/index.php">Home</a></li>
+                    <li><a href="../public/cdsForSale.php">CD's</a></li>
+                    <li><a href="../public/instrumentsForSale.php">Instruments's</a></li>
+                    <li><a href="../public/shoppingCart.php">Shopping Cart</a></li>
+                    <li><a href="../public/loginScreen.php">{{ title2 }}</a></li>
+                </ul>
+                Copyright © 2016 <a href="../public/index.php">Dublin Music's {{ title }} Page</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body></html>

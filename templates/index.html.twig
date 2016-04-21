@@ -1,0 +1,111 @@
+{#
+B00084376
+This is the template of the main page.
+This will show the user what pages are available.
+#}
+
+{% set title = 'Home' %}
+{% set title2 = 'Login' %}
+{% set linkAddress1 = '../public/images/Zayne Mind of Mine.jpg' %}
+{% set linkAddress2 = '../public/images/7 27 Fifth Harmony.jpg' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>{{ title }}</title>
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="../css/templatemo_style.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+        function clearText(field)
+        {
+            if (field.defaultValue == field.value)
+                field.value = '';
+            else if (field.value == '')
+                field.value = field.defaultValue;
+        }
+    </script></head>
+<body>
+<div id="templatemo_container_wrapper">
+    <div id="templatemo_container">
+
+        <div id="templatemo_banner">
+
+            <div id="site_title">
+                <h1><a href="#">Dublin Music</a></h1>
+                <h1><a href="#">{{ title }}</a></h1>
+            </div>
+
+            <div id="templatemo_menu">
+                {#
+                This is the main menu of the program, displayed on both the top and bottom of the page.
+                #}
+                <ul>
+                    <li><a href="../public/index.php" class="current">{{ title }}</a></li>
+                    <li><a href="../public/cdsForSale.php">CD's</a></li>
+                    <li><a href="../public/instrumentsForSale.php">Instruments</a></li>
+                    <li><a href="../public/shoppingCart.php">Shopping Cart</a></li>
+                    <li><a href="../public/loginScreen.php">{{ title2 }}</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="templatemo_content">
+            <div id="side_column">
+                <div class="side_column_box">
+                    <h2><span></span>New Releases</h2>
+                    <div class="side_column_box_content">
+                        <div class="news_section">
+                            <div style="text-align: center;"><a href="../public/cdsForSale.php"><img style="width: 154px; height: 129px;" src="{{ linkAddress1 }}" /></a></div><a href="#">
+                            </a>
+                            <p style="text-align: center; color: yellow;">Mind of Mine</p><p style="text-align: center;">Zayn</p>
+                        </div>
+
+                        <div class="news_section">
+                            <div style="text-align: center;"><a href="../public/cdsForSale.php"><img style="width: 154px; height: 129px;" src="{{ linkAddress2 }}" /></a></div><a href="#">
+                            </a>
+                            <p style="text-align: center; color: yellow;">7/27</p><p style="text-align: center;">Fifth Harmony</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_column">
+            <div class="main_column_section">
+                <h2><span></span>About this site<br />
+                </h2>
+                <div class="main_column_section_content">
+                    <h5>Welcome to the site for Dublin Music! Here you can browse our collection of CD's and instruments.<br /><br /></h5>
+                    <h5>If you have bought a membership card in store you can log in and see discounted prices and deals.<br /><br /></h5>
+                    <h5>To get started try clicking on any of the links on the page.<br /><br />Thank you for visiting.
+                        <br />If you have the time follow us on Facebook and like our page!</h5>
+                </div>
+                <div class="cleaner"></div>
+                <div class="bottom"></div>
+            </div>
+            <div class="main_column_section">
+                <h2><span></span>New Releases</h2>
+                <div class="main_column_section_content">
+                    <h5>Look to the left of each page and you will see some newly released albums, all of these albums can be bought in our store so make sure to take a look at the prices here and buy in store.<br /></h5>
+                </div>
+                <div class="bottom"></div>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+        <div style="text-align: center;" id="templatemo_footer" align="center">
+            <div id="templatemo_footer_bar">
+                <ul class="footer_menu">
+                    <li><a href="../public/index.php">Home</a></li>
+                    <li><a href="../public/cdsForSale.php">CD's</a></li>
+                    <li><a href="../public/instrumentsForSale.php">Instruments's</a></li>
+                    <li><a href="../public/shoppingCart.php">Shopping Cart</a></li>
+                    <li><a href="../public/loginScreen.php">{{ title2 }}</a></li>
+                </ul>
+                Copyright © 2016 <a href="../public/index.php#">Dublin Music's {{ title }} Page</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body></html>

@@ -1,0 +1,112 @@
+{#
+B00084376
+This is the template of the instruments page.
+This will show the user what instruments are available to buy and at what price (without discount).
+Prices are saved in variables called instrumentprice, while links for images are saved in the instrumentLinkAddress varaible.
+#}
+
+{% set title = 'Instruments for Sale' %}
+{% set title2 = 'Login' %}
+{% set cdLinkAddress1 = '../public/images/Unbreakable Janet Jackson.jpg' %}
+{% set cdLinkAddress2 = '../public/images/Pet Shop Boys Super.jpg' %}
+{% set instrumentLinkAddress1 = '../public/images/SubZero Portland 22 Electric Guitar.jpg' %}
+{% set instrumentLinkAddress2 = '../public/images/Dreadnought 12 String Acoustic Guitar.jpg' %}
+{% set instrumentLinkAddress3 = '../public/images/Yamaha DTX522K Electronic Drum Kit.jpg' %}
+{% set instrumentLinkAddress4 = '../public/images/GD-2 Drum Kit.jpg' %}
+{% set instrumentLinkAddress5 = '../public/images/SubZero SZC-400 Condenser Microphone Studio Pack.jpg' %}
+{% set instrumentLinkAddress6 = '../public/images/MK-6000 Keyboard.jpg' %}
+{% set instrumentLinkAddress7 = '../public/images/Casio Celviano AP-250 Digital Piano.jpg' %}
+{% set instrumentprice1 = 140.00 %}
+{% set instrumentprice2 = 80.00 %}
+{% set instrumentprice3 = 980.00 %}
+{% set instrumentprice4 = 300.00 %}
+{% set instrumentprice5 = 90.00 %}
+{% set instrumentprice6 = 150.00 %}
+{% set instrumentprice7 = 600.00 %}
+
+
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>{{ title }}</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="../css/templatemo_style.css" rel="stylesheet" type="text/css">
+    <script language="javascript" type="text/javascript">
+        function clearText(field)
+        {
+            if (field.defaultValue == field.value) field.value = '';
+            else if (field.value == '') field.value = field.defaultValue;
+        }
+    </script></head>
+<body>
+<div id="templatemo_container_wrapper">
+    <div id="templatemo_container">
+        <div id="templatemo_banner">
+            <div id="site_title">
+                <h1><a href="#">Dublin Music</a></h1>
+                <h1><a href="#"><small>{{ title }}</small></a></h1>
+            </div>
+            <div id="templatemo_menu">
+                <ul>
+                    <li><a href="../public/index.php" class="current">Home</a></li>
+                    <li><a href="../public/cdsForSale.php">CD's</a></li>
+                    <li><a href="../public/instrumentsForSale.php">Instruments</a></li>
+                    <li><a href="../public/shoppingCart.php">Shopping Cart</a></li>
+                    <li><a href="../public/loginScreen.php">{{ title2 }}</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="templatemo_content">
+            <div id="side_column">
+                <div class="side_column_box">
+                    <h2><span></span>New Releases</h2>
+                    <div class="side_column_box_content"><div class="news_section"><div style="text-align: center;">
+                                <a href="../public/cdsForSale.php"><img style="width: 145px; height: 124px;" src="{{ cdLinkAddress1 }}"></a></div><a href="#">
+                            </a>
+                            <p style="text-align: center; color: yellow;">Unbreakable</p><p style="text-align: center;">Janet Jackson</p>
+                        </div>
+                        <div class="news_section"><div style="text-align: center;">
+
+                                <a href="../public/cdsForSale.php"><img style="width: 143px; height: 138px;" src="{{ cdLinkAddress2 }}"></a></div>
+                            <p style="text-align: center; color: yellow;">Super</p><p style="text-align: center;">Pet Shop Boys</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_column">
+            <div class="main_column_section">
+                <h2><span></span>Instruments in Stock<br>
+                    {#
+                    This will show the user what instruments are available to buy and at what price (without discount).
+                    Prices are saved in variables called instrumentprice, while links for images are saved in the instrumentLinkAddress varaible.
+                    #}
+                </h2><div style="text-align: center;">
+                    <div class="news_section"><div style="text-align: center;"><br><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress1 }}"></div><p style="text-align: center; color: yellow;">SubZero Portland 22 Electric Guitar</p><p style="text-align: center;">€{{ instrumentprice1 }}.00</p></div>
+                    <div class="news_section"><div style="text-align: center;"><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress2 }}"></div><p style="text-align: center; color: yellow;">Dreadnought 12 String Acoustic Guitar</p><p style="text-align: center;">€{{ instrumentprice2 }}.00</p></div>
+                    <div class="news_section"><div style="text-align: center;"><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress3 }}"></div><p style="text-align: center; color: yellow;">Yamaha DTX522K Electronic Drum Kit</p><p style="text-align: center;">€{{ instrumentprice3 }}.00</p></div>
+                    <div class="news_section"><div style="text-align: center;"><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress4 }}"></div><p style="text-align: center; color: yellow;">GD-2 Drum Kit</p><p style="text-align: center;">€{{ instrumentprice4 }}.00</p></div>
+                    <div class="news_section"><div style="text-align: center;"><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress5 }}"></div><p style="text-align: center; color: yellow;">SubZero SZC-400 Condenser Microphone Studio Pack</p><p style="text-align: center;">€{{ instrumentprice5 }}.00</p></div>
+                    <div class="news_section"><div style="text-align: center;"><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress6 }}"></div><p style="text-align: center; color: yellow;">MK-6000 Keyboard</p><p style="text-align: center;">€{{ instrumentprice6 }}.00</p></div>
+                    <div class="news_section"><div style="text-align: center;"><img style="width: 265px; height: 140px;" src="{{ instrumentLinkAddress7 }}"></div><p style="text-align: center; color: yellow;">Casio Celviano AP-250 Digital Piano</p><p style="text-align: center;">€{{ instrumentprice7 }}.00</p></div><br></div><div class="cleaner"></div>
+                <div class="bottom"></div>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+        <div style="text-align: center;" id="templatemo_footer" align="center">
+            <div id="templatemo_footer_bar">
+                <ul class="footer_menu">
+                    <li><a href="../public/index.php">Home</a></li>
+                    <li><a href="../public/cdsForSale.php">CD's</a></li>
+                    <li><a href="../public/instrumentsForSale.php">Instruments's</a></li>
+                    <li><a href="../public/shoppingCart.php">Shopping Cart</a></li>
+                    <li><a href="../public/loginScreen.php">{{ title2 }}</a></li>
+                </ul>
+                Copyright © 2016 <a href="../public/index.php"> Dublin Music's {{ title }} Page</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body></html>

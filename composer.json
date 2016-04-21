@@ -1,0 +1,15 @@
+{
+    "autoload":{
+      "psr-4":{
+        "DublinMusic\\":"src/"
+      }
+    },
+
+    "scripts":{
+      "phpdoc": "php phpDocumentor.phar -d ./src -t ./src/documentation --template='responsive-twig'"
+    },
+
+    "require": {
+            "twig/twig": "^1.24"
+        }
+}

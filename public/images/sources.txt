@@ -1,0 +1,22 @@
+References:
+
+Babymetal:        http://ecx.images-amazon.com/images/I/919mlLnqduL._SX425_.jpg
+Janet Jackson:    http://ecx.images-amazon.com/images/I/91d-ojzQt5L._SX425_.jpg
+Pet Shop Boys:    http://ecx.images-amazon.com/images/I/61%2BA48ewtZL._SX425_.jpg
+Zayn:             http://ecx.images-amazon.com/images/I/81rxAlLz5CL._SX425_.jpg
+Adele:            http://ecx.images-amazon.com/images/I/81q0mwIoc0L._SX425_.jpg
+Fifth Harmony:    http://ecx.images-amazon.com/images/I/81U6vP8DPdL._SX425_.jpg
+Little Mix:       http://ecx.images-amazon.com/images/I/91dVSRH-iPL._SX425_.jpg
+Sia:              http://ecx.images-amazon.com/images/I/71dbAm1iHwL._SL1500_.jpg
+
+SubZero Portland 22 Electric Guitar:                http://cdns3.gear4music.com/media/12/126614/1200/preview.jpg
+Dreadnought 12 String Acoustic Guitar:              http://mitchellguitars.com/wp-content/uploads/2014/11/Mitchell-MD100S12.jpg
+Yamaha DTX522K Electronic Drum Kit:                 http://www.bhphotovideo.com/images/images2500x2500/yamaha_dtx522k_dtp522_cymbal_drum_pad_set_968432.jpg
+GD-2 Drum Kit:                                      http://cdns3.gear4music.com/media/10/104428/1200/preview.jpg
+SubZero SZC-400 Condenser Microphone Studio Pack:   http://cdns3.gear4music.com/media/14/140792/1200/preview.jpg
+MK-6000 Keyboard:                                   http://cdns3.gear4music.com/media/12/120641/1200/preview.jpg
+Casio Celviano AP-250 Digital Piano:                https://images-na.ssl-images-amazon.com/images/G/01/musical-instruments/detail-page/B00AZMQFVQ_img1.jpg
+
+Template: http://all-free-download.com/templates/templates_preview.php?url=http://images.all-free-download.com/free-website-templates-preview/green_black_674/
+
+Used the following site for help on creating cart:   http://phppot.com/
